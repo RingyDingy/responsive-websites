@@ -105,34 +105,71 @@ html {
 }
 
 body {
-  font-family: 'IM Fell English SC', serif;
   padding: 2em;
-  font-size: 1.25em;
   height: 100%;
+  margin: 10px;
 }
+
+header, footer {
+    font-family:'IM Fell English SC', serif;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+     margin: 10px;
+}
+
+header{
+    border: 8px ridge white;
+    font-size: 2em;
+}
+
+footer{
+    border: 3px ridge white;
+    font-size: 1.2em;
+}
+
+main{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: saddlebrown;
+    color: whitesmoke;
+    margin: 10px;
+    border: 10px double black;
+    font-family: 'Neutron', serif;
+    padding:5px;
+    font-size: 1.2em;
+}
+
 
 .wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
   justify-content: space-between;
-  
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1em;
+  padding: 2em;
 }
 
+
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.5em;
-  font-size: .9em;
+  line-height: 1.2em;
+  font-size: 1em;
   background-color: saddlebrown;
-  height: 300px;
+  height: 125px;
   width: 30%;
   text-align: center;
-  border: 6px double black;
-}
+  border: 4px double black;
+  font-family: 'Neutron', serif;
+ }
 
 
 

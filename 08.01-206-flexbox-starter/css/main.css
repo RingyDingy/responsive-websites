@@ -109,16 +109,6 @@ body {
   color: #fff;
 }
 
-header,
-footer {
-  background-color: #222;
-  height: 80px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 main {
   background-color: #ccc;
   height: 250px;
@@ -131,6 +121,12 @@ main {
 header,
 footer,
 main {
+    background-color: #222;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
