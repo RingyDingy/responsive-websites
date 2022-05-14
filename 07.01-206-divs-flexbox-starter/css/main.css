@@ -97,12 +97,15 @@ textarea {
 
 
 html {
-  background-color: #fff;
+    background-image: url(https://th.bing.com/th/id/R.6751959c47987c9cd3345a888700422a?rik=8zxSer9HmRfFjQ&riu=http%3a%2f%2fsantafejeeptours.com%2fwp-content%2fuploads%2f2015%2f09%2fSanta-Fe-Jeep-Tours-Bonanza-Creek-Old-West-Main-Street.jpg&ehk=n7ay%2fV7X2EKaiG4S7DH5Uku3ycUzs8AFvg21DaNam04%3d&risl=&pid=ImgRaw&r=0);
+    background-position: center;
+    background-size: auto;
+  background-color: gray;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'IM Fell English SC', serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -113,6 +116,7 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .div-1, .div-2, .div-3 {
@@ -122,10 +126,12 @@ body {
   align-items: center;
   justify-content: center;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: .9em;
+  background-color: saddlebrown;
   height: 300px;
   width: 30%;
+  text-align: center;
+  border: 6px double black;
 }
 
 
